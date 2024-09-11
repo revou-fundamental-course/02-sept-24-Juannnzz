@@ -13,7 +13,7 @@
         <header>
             <h1>Welcome to Katik</h1>
             <p>Hai Sobat, Selamat datang di Katik :)<br>
-               Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+                Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
         </header>
 
         <main>
@@ -32,11 +32,15 @@
                         L = Luas<br>
                         a = Panjang Alas<br>
                         t = Tinggi</p>
+                    <hr>
+
+                    <p class="hitung">Hitung Luas Segitiga</p>
+
                     <form id="formLuas">
                         <label for="alas">Nilai Alas</label>
-                        <input type="number" id="alas" required>
+                        <input type="number" id="alas" required placeholder="Nilai Alas" step="any">
                         <label for="tinggi">Nilai Tinggi</label>
-                        <input type="number" id="tinggi" required>
+                        <input type="number" id="tinggi" required placeholder="Nilai Tinggi" step="any">
                         <button type="submit">Hitung Luas</button>
                         <button type="reset">Reset</button>
                     </form>
@@ -55,13 +59,17 @@
                         S1 = Sisi A<br>
                         S2 = Sisi B<br>
                         S3 = Sisi C</p>
+                    <hr>
+
+                    <p class="hitung">Hitung Keliling Segitiga</p>
+
                     <form id="formKeliling">
                         <label for="sisiA">Sisi A</label>
-                        <input type="number" id="sisiA" required>
+                        <input type="number" id="sisiA" required placeholder="Sisi A" step="any">
                         <label for="sisiB">Sisi B</label>
-                        <input type="number" id="sisiB" required>
+                        <input type="number" id="sisiB" required placeholder="Sisi B" step="any">
                         <label for="sisiC">Sisi C</label>
-                        <input type="number" id="sisiC" required>
+                        <input type="number" id="sisiC" required placeholder="Sisi C" step="any">
                         <button type="submit">Hitung Keliling</button>
                         <button type="reset">Reset</button>
                     </form>

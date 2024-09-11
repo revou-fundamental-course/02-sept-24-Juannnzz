@@ -54,8 +54,14 @@ h2 {
     margin-bottom: 20px;
 }
 
+.hitung{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .card {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .card img {
